@@ -1,0 +1,49 @@
+# 依赖目录
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 运行时文件
+dist/
+build/
+.umi/
+.cache/
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 测试覆盖文件
+coverage/
+.nyc_output
+
+# 其他
+*.tgz
+*.tar.gz
